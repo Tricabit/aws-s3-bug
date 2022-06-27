@@ -34,7 +34,6 @@ const PDFViewer: React.FC<Props> = ({ file, className }) => {
             renderAnnotationLayer={false}
             renderTextLayer={false}
             className="flex w-full"
-            style={{ display: "flex" }}
           />
         ))}
       </Document>
